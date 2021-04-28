@@ -109,7 +109,7 @@ class ServiceImp() : Service {
 ```kotlin
 val myModule = module {
 
-    // 只匹配 Service 类型
+    // 只匹配 ServiceImp 类型
     single { ServiceImp() }
 
     // 只匹配 Service 类型
